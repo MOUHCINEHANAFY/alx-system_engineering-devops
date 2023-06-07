@@ -1,2 +1,2 @@
-#!bin/bash
+#!/bin/bash
 rm -rf /tml/my_first_directory
