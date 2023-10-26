@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # This script is displaying content of current directory
+mylist=$(ls)
 
-for ((i = 0 ; i < 1 ; i++)); do
-  echo ""
+for i in $mylist; do
+  echo "$i" | cut -d '-' -f2
 done
