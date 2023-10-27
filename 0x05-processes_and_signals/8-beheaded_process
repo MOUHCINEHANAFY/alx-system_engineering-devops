@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Script that displays pids
+pkill -SIGKILL -f "7-highlander"
