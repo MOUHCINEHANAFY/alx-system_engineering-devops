@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Displays PIDS
+
 terminator() {
   rm /var/run/holbertonscript.pid
   exit
