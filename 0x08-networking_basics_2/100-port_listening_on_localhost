@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# sniff port 98 on localhost.
+
+nc -l localhost 98
+
